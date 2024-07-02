@@ -3,20 +3,20 @@ module github.com/dmitryax/opentelemetry-go/bridge/opencensus/test
 go 1.21
 
 require (
-	go.opencensus.io v0.24.0
 	github.com/dmitryax/opentelemetry-go v1.28.0
 	github.com/dmitryax/opentelemetry-go/bridge/opencensus v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk v1.28.0
 	github.com/dmitryax/opentelemetry-go/trace v1.28.0
+	go.opencensus.io v0.24.0
 )
 
 require (
+	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
+	github.com/dmitryax/opentelemetry-go/sdk/metric v1.28.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
-	github.com/dmitryax/opentelemetry-go/sdk/metric v1.28.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 )
 

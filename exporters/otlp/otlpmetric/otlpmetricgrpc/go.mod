@@ -6,11 +6,11 @@ retract v0.32.2 // Contains unresolvable dependencies.
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
-	github.com/google/go-cmp v0.6.0
-	github.com/stretchr/testify v1.9.0
 	github.com/dmitryax/opentelemetry-go v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk/metric v1.28.0
+	github.com/google/go-cmp v0.6.0
+	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/proto/otlp v1.3.1
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094
 	google.golang.org/grpc v1.64.0
@@ -19,6 +19,8 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
+	github.com/dmitryax/opentelemetry-go/trace v1.28.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -26,8 +28,6 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
-	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
-	github.com/dmitryax/opentelemetry-go/trace v1.28.0 // indirect
 	golang.org/x/net v0.26.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect

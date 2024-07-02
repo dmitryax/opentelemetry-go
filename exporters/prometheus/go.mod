@@ -3,14 +3,14 @@ module github.com/dmitryax/opentelemetry-go/exporters/prometheus
 go 1.21
 
 require (
-	github.com/prometheus/client_golang v1.19.1
-	github.com/prometheus/client_model v0.6.1
-	github.com/stretchr/testify v1.9.0
 	github.com/dmitryax/opentelemetry-go v1.28.0
 	github.com/dmitryax/opentelemetry-go/metric v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk/metric v1.28.0
 	github.com/dmitryax/opentelemetry-go/trace v1.28.0
+	github.com/prometheus/client_golang v1.19.1
+	github.com/prometheus/client_model v0.6.1
+	github.com/stretchr/testify v1.9.0
 	google.golang.org/protobuf v1.34.2
 )
 

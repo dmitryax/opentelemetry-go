@@ -9,22 +9,22 @@ replace github.com/dmitryax/opentelemetry-go/bridge/opentracing => ../
 replace github.com/dmitryax/opentelemetry-go/trace => ../../../trace
 
 require (
+	github.com/dmitryax/opentelemetry-go v1.28.0
+	github.com/dmitryax/opentelemetry-go/bridge/opentracing v1.28.0
 	github.com/opentracing-contrib/go-grpc v0.0.0-20210225150812-73cb765af46e
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/stretchr/testify v1.9.0
-	github.com/dmitryax/opentelemetry-go v1.28.0
-	github.com/dmitryax/opentelemetry-go/bridge/opentracing v1.28.0
 	google.golang.org/grpc v1.64.0
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
+	github.com/dmitryax/opentelemetry-go/trace v1.28.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/dmitryax/opentelemetry-go/metric v1.28.0 // indirect
-	github.com/dmitryax/opentelemetry-go/trace v1.28.0 // indirect
 	golang.org/x/net v0.26.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect

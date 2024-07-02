@@ -3,13 +3,13 @@ module github.com/dmitryax/opentelemetry-go/sdk/metric
 go 1.21
 
 require (
-	github.com/go-logr/logr v1.4.2
-	github.com/go-logr/stdr v1.2.2
-	github.com/stretchr/testify v1.9.0
 	github.com/dmitryax/opentelemetry-go v1.28.0
 	github.com/dmitryax/opentelemetry-go/metric v1.28.0
 	github.com/dmitryax/opentelemetry-go/sdk v1.28.0
 	github.com/dmitryax/opentelemetry-go/trace v1.28.0
+	github.com/go-logr/logr v1.4.2
+	github.com/go-logr/stdr v1.2.2
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
