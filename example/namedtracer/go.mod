@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/namedtracer
+module github.com/dmitryax/opentelemetry-go/example/namedtracer
 
 go 1.21
 

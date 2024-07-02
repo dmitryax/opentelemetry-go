@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/log
+module github.com/dmitryax/opentelemetry-go/log
 
 go 1.21
 

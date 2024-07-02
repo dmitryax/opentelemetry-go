@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/zipkin
+module github.com/dmitryax/opentelemetry-go/exporters/zipkin
 
 go 1.21
 

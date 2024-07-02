@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/prometheus
+module github.com/dmitryax/opentelemetry-go/exporters/prometheus
 
 go 1.21
 

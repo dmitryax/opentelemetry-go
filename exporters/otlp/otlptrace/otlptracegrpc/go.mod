@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
+module github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracegrpc
 
 go 1.21
 

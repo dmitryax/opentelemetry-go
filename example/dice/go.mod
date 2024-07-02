@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/dice
+module github.com/dmitryax/opentelemetry-go/example/dice
 
 go 1.21
 

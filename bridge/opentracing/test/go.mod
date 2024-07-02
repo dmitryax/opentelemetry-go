@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/bridge/opentracing/test
+module github.com/dmitryax/opentelemetry-go/bridge/opentracing/test
 
 go 1.21
 

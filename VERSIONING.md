@@ -22,7 +22,7 @@ is designed so the following goals can be achieved.
 
     * If a module is version `v2` or higher, the major version of the module
       must be included as a `/vN` at the end of the module paths used in
-      `go.mod` files (e.g., `module go.opentelemetry.io/otel/v2`, `require
+      `go.mod` files (e.g., `module github.com/dmitryax/opentelemetry-go/v2`, `require
       go.opentelemetry.io/otel/v2 v2.0.1`) and in the package import path
       (e.g., `import "go.opentelemetry.io/otel/v2/trace"`). This includes the
       paths used in `go get` commands (e.g., `go get

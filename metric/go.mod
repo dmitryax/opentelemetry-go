@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/metric
+module github.com/dmitryax/opentelemetry-go/metric
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/zipkin
+module github.com/dmitryax/opentelemetry-go/example/zipkin
 
 go 1.21
 

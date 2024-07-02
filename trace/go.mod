@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/trace
+module github.com/dmitryax/opentelemetry-go/trace
 
 go 1.21
 

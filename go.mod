@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel
+module github.com/dmitryax/opentelemetry-go
 
 go 1.21
 

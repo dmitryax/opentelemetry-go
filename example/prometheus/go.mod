@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/prometheus
+module github.com/dmitryax/opentelemetry-go/example/prometheus
 
 go 1.21
 

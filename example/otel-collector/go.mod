@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/otel-collector
+module github.com/dmitryax/opentelemetry-go/example/otel-collector
 
 go 1.21
 

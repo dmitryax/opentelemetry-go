@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/bridge/opencensus/test
+module github.com/dmitryax/opentelemetry-go/bridge/opencensus/test
 
 go 1.21
 

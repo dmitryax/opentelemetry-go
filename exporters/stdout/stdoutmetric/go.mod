@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/exporters/stdout/stdoutmetric
+module github.com/dmitryax/opentelemetry-go/exporters/stdout/stdoutmetric
 
 go 1.21
 

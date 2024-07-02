@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel/example/passthrough
+module github.com/dmitryax/opentelemetry-go/example/passthrough
 
 go 1.21
 
