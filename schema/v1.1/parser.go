@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package schema // import "go.opentelemetry.io/otel/schema/v1.1"
+package schema // import "github.com/dmitryax/opentelemetry-go/schema/v1.1"
 
 import (
 	"io"
@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"go.opentelemetry.io/otel/schema/internal"
-	"go.opentelemetry.io/otel/schema/v1.1/ast"
+	"github.com/dmitryax/opentelemetry-go/schema/internal"
+	"github.com/dmitryax/opentelemetry-go/schema/v1.1/ast"
 )
 
 // Major file version number that this library supports.

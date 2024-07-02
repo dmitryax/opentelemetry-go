@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/dmitryax/opentelemetry-go/sdk/trace"
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/sdk/internal/env"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
+	"github.com/dmitryax/opentelemetry-go/sdk/internal/env"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 // Defaults for BatchSpanProcessorOptions.

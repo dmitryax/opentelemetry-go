@@ -4,7 +4,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internaltest // import "go.opentelemetry.io/otel/sdk/internal/internaltest"
+package internaltest // import "github.com/dmitryax/opentelemetry-go/sdk/internal/internaltest"
 
 import (
 	"os"

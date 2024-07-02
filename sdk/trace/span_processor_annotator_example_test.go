@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/dmitryax/opentelemetry-go/attribute"
 )
 
 /*

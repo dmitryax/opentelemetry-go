@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/sdk/metric"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 )
 
 // Default periodic reader timing.

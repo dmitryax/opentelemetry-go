@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp/internal/retry"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlplog/otlploghttp/internal/retry"
 )
 
 const (

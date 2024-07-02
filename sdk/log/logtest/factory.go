@@ -2,18 +2,18 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package logtest is a testing helper package.
-package logtest // import "go.opentelemetry.io/otel/sdk/log/logtest"
+package logtest // import "github.com/dmitryax/opentelemetry-go/sdk/log/logtest"
 
 import (
 	"reflect"
 	"time"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/log"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	sdklog "go.opentelemetry.io/otel/sdk/log"
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/log"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	sdklog "github.com/dmitryax/opentelemetry-go/sdk/log"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 // RecordFactory is used to facilitate unit testing implementations of

@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
-	tracesdk "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/sdk/trace/tracetest"
-	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/codes"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	tracesdk "github.com/dmitryax/opentelemetry-go/sdk/trace"
+	"github.com/dmitryax/opentelemetry-go/sdk/trace/tracetest"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.26.0"
+	"github.com/dmitryax/opentelemetry-go/trace"
 	tracepb "go.opentelemetry.io/proto/otlp/trace/v1"
 )
 

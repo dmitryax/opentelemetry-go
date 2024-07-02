@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package exemplar // import "go.opentelemetry.io/otel/sdk/metric/internal/exemplar"
+package exemplar // import "github.com/dmitryax/opentelemetry-go/sdk/metric/internal/exemplar"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 // Filter determines if a measurement should be offered.

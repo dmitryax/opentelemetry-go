@@ -1,9 +1,9 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package log // import "go.opentelemetry.io/otel/log"
+package log // import "github.com/dmitryax/opentelemetry-go/log"
 
-import "go.opentelemetry.io/otel/log/embedded"
+import "github.com/dmitryax/opentelemetry-go/log/embedded"
 
 // LoggerProvider provides access to [Logger].
 //

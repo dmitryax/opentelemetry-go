@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/sdk/metric"
 
 import (
 	"context"
@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/metric/internal/aggregate"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal/aggregate"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata/metricdatatest"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
 )
 
 var defaultView = NewView(Instrument{Name: "*"}, Stream{})

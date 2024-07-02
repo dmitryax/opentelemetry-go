@@ -10,10 +10,10 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc/internal"
-	"go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetricgrpc/internal"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 	cpb "go.opentelemetry.io/proto/otlp/collector/metrics/v1"
 	mpb "go.opentelemetry.io/proto/otlp/metrics/v1"
 )

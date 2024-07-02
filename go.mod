@@ -7,8 +7,8 @@ require (
 	github.com/go-logr/stdr v1.2.2
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	go.opentelemetry.io/otel/metric v1.28.0
-	go.opentelemetry.io/otel/trace v1.28.0
+	github.com/dmitryax/opentelemetry-go/metric v1.28.0
+	github.com/dmitryax/opentelemetry-go/trace v1.28.0
 )
 
 require (
@@ -17,6 +17,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.opentelemetry.io/otel/trace => ./trace
+replace github.com/dmitryax/opentelemetry-go/trace => ./trace
 
-replace go.opentelemetry.io/otel/metric => ./metric
+replace github.com/dmitryax/opentelemetry-go/metric => ./metric

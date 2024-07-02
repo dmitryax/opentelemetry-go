@@ -12,13 +12,13 @@
 // defaults to no operation for methods it does not implement.
 //
 // [OpenTelemetry Logs Bridge API]: https://pkg.go.dev/go.opentelemetry.io/otel/log
-package noop // import "go.opentelemetry.io/otel/log/noop"
+package noop // import "github.com/dmitryax/opentelemetry-go/log/noop"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/log"
-	"go.opentelemetry.io/otel/log/embedded"
+	"github.com/dmitryax/opentelemetry-go/log"
+	"github.com/dmitryax/opentelemetry-go/log/embedded"
 )
 
 var (

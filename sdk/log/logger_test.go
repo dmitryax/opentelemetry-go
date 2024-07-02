@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package log // import "go.opentelemetry.io/otel/sdk/log"
+package log // import "github.com/dmitryax/opentelemetry-go/sdk/log"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/log"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/log"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 func TestLoggerEmit(t *testing.T) {

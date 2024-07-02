@@ -3,7 +3,7 @@
 
 //go:generate stringer -type=Kind -trimprefix=Kind
 
-package log // import "go.opentelemetry.io/otel/log"
+package log // import "github.com/dmitryax/opentelemetry-go/log"
 
 import (
 	"bytes"
@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/internal/global"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
 )
 
 // errKind is logged when a Value is decoded to an incompatible type.

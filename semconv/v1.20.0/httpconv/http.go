@@ -3,15 +3,15 @@
 
 // Package httpconv provides OpenTelemetry HTTP semantic conventions for
 // tracing telemetry.
-package httpconv // import "go.opentelemetry.io/otel/semconv/v1.20.0/httpconv"
+package httpconv // import "github.com/dmitryax/opentelemetry-go/semconv/v1.20.0/httpconv"
 
 import (
 	"net/http"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/semconv/internal/v4"
-	semconv "go.opentelemetry.io/otel/semconv/v1.20.0"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/codes"
+	"github.com/dmitryax/opentelemetry-go/semconv/internal/v4"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.20.0"
 )
 
 var (

@@ -3,42 +3,42 @@
 
 // Package metricdatatest provides testing functionality for use with the
 // metricdata package.
-package metricdatatest // import "go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
+package metricdatatest // import "github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata/metricdatatest"
 
 import (
 	"fmt"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 )
 
 // Datatypes are the concrete data-types the metricdata package provides.
 type Datatypes interface {
 	metricdata.DataPoint[float64] |
-		metricdata.DataPoint[int64] |
-		metricdata.Gauge[float64] |
-		metricdata.Gauge[int64] |
-		metricdata.Histogram[float64] |
-		metricdata.Histogram[int64] |
-		metricdata.HistogramDataPoint[float64] |
-		metricdata.HistogramDataPoint[int64] |
-		metricdata.Extrema[int64] |
-		metricdata.Extrema[float64] |
-		metricdata.Metrics |
-		metricdata.ResourceMetrics |
-		metricdata.ScopeMetrics |
-		metricdata.Sum[float64] |
-		metricdata.Sum[int64] |
-		metricdata.Exemplar[float64] |
-		metricdata.Exemplar[int64] |
-		metricdata.ExponentialHistogram[float64] |
-		metricdata.ExponentialHistogram[int64] |
-		metricdata.ExponentialHistogramDataPoint[float64] |
-		metricdata.ExponentialHistogramDataPoint[int64] |
-		metricdata.ExponentialBucket |
-		metricdata.Summary |
-		metricdata.SummaryDataPoint |
-		metricdata.QuantileValue
+	metricdata.DataPoint[int64] |
+	metricdata.Gauge[float64] |
+	metricdata.Gauge[int64] |
+	metricdata.Histogram[float64] |
+	metricdata.Histogram[int64] |
+	metricdata.HistogramDataPoint[float64] |
+	metricdata.HistogramDataPoint[int64] |
+	metricdata.Extrema[int64] |
+	metricdata.Extrema[float64] |
+	metricdata.Metrics |
+	metricdata.ResourceMetrics |
+	metricdata.ScopeMetrics |
+	metricdata.Sum[float64] |
+	metricdata.Sum[int64] |
+	metricdata.Exemplar[float64] |
+	metricdata.Exemplar[int64] |
+	metricdata.ExponentialHistogram[float64] |
+	metricdata.ExponentialHistogram[int64] |
+	metricdata.ExponentialHistogramDataPoint[float64] |
+	metricdata.ExponentialHistogramDataPoint[int64] |
+	metricdata.ExponentialBucket |
+	metricdata.Summary |
+	metricdata.SummaryDataPoint |
+	metricdata.QuantileValue
 
 	// Interface types are not allowed in union types, therefore the
 	// Aggregation and Value type from metricdata are not included here.

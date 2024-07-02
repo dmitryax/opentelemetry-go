@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/sdk/metric"
 
 import (
 	"context"
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
 )
 
 // config contains configuration options for a MeterProvider.

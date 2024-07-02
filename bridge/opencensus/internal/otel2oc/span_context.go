@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otel2oc // import "go.opentelemetry.io/otel/bridge/opencensus/internal/otel2oc"
+package otel2oc // import "github.com/dmitryax/opentelemetry-go/bridge/opencensus/internal/otel2oc"
 
 import (
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 func SpanContext(sc trace.SpanContext) octrace.SpanContext {

@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/sdk/trace/tracetest"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/dmitryax/opentelemetry-go/sdk/trace/tracetest"
 	tracepb "go.opentelemetry.io/proto/otlp/trace/v1"
 )
 

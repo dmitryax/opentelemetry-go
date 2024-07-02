@@ -1,11 +1,11 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/dmitryax/opentelemetry-go"
 
 import (
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 // Tracer creates a named tracer that implements Tracer interface.

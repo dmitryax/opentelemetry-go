@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/log"
+	"github.com/dmitryax/opentelemetry-go/log"
 
 	"github.com/stretchr/testify/assert"
 )

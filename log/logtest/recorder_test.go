@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/log"
+	"github.com/dmitryax/opentelemetry-go/log"
 )
 
 func TestRecorderLogger(t *testing.T) {

@@ -8,8 +8,8 @@ Assuming you have configured an OpenTelemetry `TracerProvider`, these will be th
 
 ```go
 import (
-	"go.opentelemetry.io/otel"
-	otelBridge "go.opentelemetry.io/otel/bridge/opentracing"
+	"github.com/dmitryax/opentelemetry-go"
+	otelBridge "github.com/dmitryax/opentelemetry-go/bridge/opentracing"
 )
 
 func main() {

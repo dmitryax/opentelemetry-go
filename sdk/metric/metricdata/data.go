@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metricdata // import "go.opentelemetry.io/otel/sdk/metric/metricdata"
+package metricdata // import "github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 
 import (
 	"encoding/json"
 	"time"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
 )
 
 // ResourceMetrics is a collection of ScopeMetrics and the associated Resource

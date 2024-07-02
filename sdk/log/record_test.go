@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/log"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/log"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 func TestRecordTimestamp(t *testing.T) {

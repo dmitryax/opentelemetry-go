@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metricdatatest // import "go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
+package metricdatatest // import "github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata/metricdatatest"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"slices"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 )
 
 // equalResourceMetrics returns reasons ResourceMetrics are not equal. If they

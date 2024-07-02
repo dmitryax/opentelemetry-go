@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otlpmetrichttp // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp"
+package otlpmetrichttp // import "github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp"
 
 import (
 	"crypto/tls"
@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/internal/oconf"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/internal/retry"
-	"go.opentelemetry.io/otel/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp/internal/oconf"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp/internal/retry"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric"
 )
 
 // Compression describes the compression used for payloads sent to the

@@ -8,15 +8,15 @@ import (
 	"errors"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/stdout/stdoutlog"
-	"go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
-	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
-	"go.opentelemetry.io/otel/log/global"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/sdk/log"
-	"go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/trace"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/exporters/stdout/stdoutlog"
+	"github.com/dmitryax/opentelemetry-go/exporters/stdout/stdoutmetric"
+	"github.com/dmitryax/opentelemetry-go/exporters/stdout/stdouttrace"
+	"github.com/dmitryax/opentelemetry-go/log/global"
+	"github.com/dmitryax/opentelemetry-go/propagation"
+	"github.com/dmitryax/opentelemetry-go/sdk/log"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/sdk/trace"
 )
 
 // setupOTelSDK bootstraps the OpenTelemetry pipeline.

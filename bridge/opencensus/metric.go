@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensus // import "go.opentelemetry.io/otel/bridge/opencensus"
+package opencensus // import "github.com/dmitryax/opentelemetry-go/bridge/opencensus"
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 	ocmetricdata "go.opencensus.io/metric/metricdata"
 	"go.opencensus.io/metric/metricproducer"
 
-	internal "go.opentelemetry.io/otel/bridge/opencensus/internal/ocmetric"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	internal "github.com/dmitryax/opentelemetry-go/bridge/opencensus/internal/ocmetric"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 )
 
 // MetricProducer implements the [go.opentelemetry.io/otel/sdk/metric.Producer] to provide metrics

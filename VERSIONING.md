@@ -24,7 +24,7 @@ is designed so the following goals can be achieved.
       must be included as a `/vN` at the end of the module paths used in
       `go.mod` files (e.g., `module github.com/dmitryax/opentelemetry-go/v2`, `require
       go.opentelemetry.io/otel/v2 v2.0.1`) and in the package import path
-      (e.g., `import "go.opentelemetry.io/otel/v2/trace"`). This includes the
+      (e.g., `import "github.com/dmitryax/opentelemetry-go/v2/trace"`). This includes the
       paths used in `go get` commands (e.g., `go get
       go.opentelemetry.io/otel/v2@v2.0.1`.  Note there is both a `/v2` and a
       `@v2.0.1` in that example. One way to think about it is that the module

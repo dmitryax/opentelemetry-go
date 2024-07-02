@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensus // import "go.opentelemetry.io/otel/bridge/opencensus"
+package opencensus // import "github.com/dmitryax/opentelemetry-go/bridge/opencensus"
 
 import (
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/bridge/opencensus/internal"
-	"go.opentelemetry.io/otel/bridge/opencensus/internal/oc2otel"
-	"go.opentelemetry.io/otel/bridge/opencensus/internal/otel2oc"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/bridge/opencensus/internal"
+	"github.com/dmitryax/opentelemetry-go/bridge/opencensus/internal/oc2otel"
+	"github.com/dmitryax/opentelemetry-go/bridge/opencensus/internal/otel2oc"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 // InstallTraceBridge installs the OpenCensus trace bridge, which overwrites

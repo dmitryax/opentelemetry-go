@@ -6,9 +6,9 @@ package opentracing
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/internal"
-	"go.opentelemetry.io/otel/trace"
-	"go.opentelemetry.io/otel/trace/embedded"
+	"github.com/dmitryax/opentelemetry-go/bridge/opentracing/internal"
+	"github.com/dmitryax/opentelemetry-go/trace"
+	"github.com/dmitryax/opentelemetry-go/trace/embedded"
 )
 
 type namedMockTracer struct {

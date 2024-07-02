@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/sdk/metric"
 
 import (
 	"container/list"
@@ -12,15 +12,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/embedded"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/metric/internal"
-	"go.opentelemetry.io/otel/sdk/metric/internal/aggregate"
-	"go.opentelemetry.io/otel/sdk/metric/internal/x"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
+	"github.com/dmitryax/opentelemetry-go/metric"
+	"github.com/dmitryax/opentelemetry-go/metric/embedded"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal/aggregate"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal/x"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
 )
 
 var (

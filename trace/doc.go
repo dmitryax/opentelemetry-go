@@ -77,7 +77,7 @@ they need to embed the corresponding interface from
 [go.opentelemetry.io/otel/trace/embedded] in their implementation. For
 example,
 
-	import "go.opentelemetry.io/otel/trace/embedded"
+	import "github.com/dmitryax/opentelemetry-go/trace/embedded"
 
 	type TracerProvider struct {
 		embedded.TracerProvider
@@ -87,7 +87,7 @@ example,
 If an author wants the default behavior of their implementations to panic, they
 can embed the API interface directly.
 
-	import "go.opentelemetry.io/otel/trace"
+	import "github.com/dmitryax/opentelemetry-go/trace"
 
 	type TracerProvider struct {
 		trace.TracerProvider
@@ -104,7 +104,7 @@ implementation will be used for methods not defined by the author. For example,
 an author who wants to default to silently dropping the call can use
 [go.opentelemetry.io/otel/trace/noop]:
 
-	import "go.opentelemetry.io/otel/trace/noop"
+	import "github.com/dmitryax/opentelemetry-go/trace/noop"
 
 	type TracerProvider struct {
 		noop.TracerProvider
@@ -116,4 +116,4 @@ It is strongly recommended that authors only embed
 That implementation is the only one OpenTelemetry authors can guarantee will
 fully implement all the API interfaces when a user updates their API.
 */
-package trace // import "go.opentelemetry.io/otel/trace"
+package trace // import "github.com/dmitryax/opentelemetry-go/trace"

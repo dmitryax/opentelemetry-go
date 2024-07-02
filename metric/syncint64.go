@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/metric"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/metric/embedded"
+	"github.com/dmitryax/opentelemetry-go/metric/embedded"
 )
 
 // Int64Counter is an instrument that records increasing int64 values.

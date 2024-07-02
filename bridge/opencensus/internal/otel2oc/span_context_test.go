@@ -8,7 +8,7 @@ import (
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 func TestSpanContextConversion(t *testing.T) {

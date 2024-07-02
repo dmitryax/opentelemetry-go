@@ -132,7 +132,7 @@ they need to embed the corresponding interface from
 [go.opentelemetry.io/otel/metric/embedded] in their implementation. For
 example,
 
-	import "go.opentelemetry.io/otel/metric/embedded"
+	import "github.com/dmitryax/opentelemetry-go/metric/embedded"
 
 	type MeterProvider struct {
 		embedded.MeterProvider
@@ -142,7 +142,7 @@ example,
 If an author wants the default behavior of their implementations to a panic,
 they need to embed the API interface directly.
 
-	import "go.opentelemetry.io/otel/metric"
+	import "github.com/dmitryax/opentelemetry-go/metric"
 
 	type MeterProvider struct {
 		metric.MeterProvider
@@ -158,7 +158,7 @@ implementation will be used for methods not defined by the author. For example,
 an author who wants to default to silently dropping the call can use
 [go.opentelemetry.io/otel/metric/noop]:
 
-	import "go.opentelemetry.io/otel/metric/noop"
+	import "github.com/dmitryax/opentelemetry-go/metric/noop"
 
 	type MeterProvider struct {
 		noop.MeterProvider
@@ -174,4 +174,4 @@ fully implement all the API interfaces when a user updates their API.
 [OpenTelemetry documentation]: https://opentelemetry.io/docs/concepts/signals/metrics/
 [GetMeterProvider]: https://pkg.go.dev/go.opentelemetry.io/otel#GetMeterProvider
 */
-package metric // import "go.opentelemetry.io/otel/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/metric"

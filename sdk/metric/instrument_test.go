@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk/metric/internal/aggregate"
-	"go.opentelemetry.io/otel/sdk/metric/metricdata"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal/aggregate"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/metricdata"
 )
 
 func BenchmarkInstrument(b *testing.B) {

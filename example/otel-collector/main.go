@@ -17,17 +17,17 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/propagation"
-	sdkmetric "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetricgrpc"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracegrpc"
+	"github.com/dmitryax/opentelemetry-go/metric"
+	"github.com/dmitryax/opentelemetry-go/propagation"
+	sdkmetric "github.com/dmitryax/opentelemetry-go/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	sdktrace "github.com/dmitryax/opentelemetry-go/sdk/trace"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.26.0"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 var serviceName = semconv.ServiceNameKey.String("test-service")

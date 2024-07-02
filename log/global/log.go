@@ -9,11 +9,11 @@ This package is experimental. It will be deprecated and removed when the [log]
 package becomes stable. Its functionality will be migrated to
 go.opentelemetry.io/otel.
 */
-package global // import "go.opentelemetry.io/otel/log/global"
+package global // import "github.com/dmitryax/opentelemetry-go/log/global"
 
 import (
-	"go.opentelemetry.io/otel/log"
-	"go.opentelemetry.io/otel/log/internal/global"
+	"github.com/dmitryax/opentelemetry-go/log"
+	"github.com/dmitryax/opentelemetry-go/log/internal/global"
 )
 
 // Logger returns a [log.Logger] configured with the provided name and options

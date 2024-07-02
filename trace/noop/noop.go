@@ -10,15 +10,15 @@
 // This implementation can be embedded in other implementations of the
 // OpenTelemetry trace API. Doing so will mean the implementation defaults to
 // no operation for methods it does not implement.
-package noop // import "go.opentelemetry.io/otel/trace/noop"
+package noop // import "github.com/dmitryax/opentelemetry-go/trace/noop"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/trace"
-	"go.opentelemetry.io/otel/trace/embedded"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/codes"
+	"github.com/dmitryax/opentelemetry-go/trace"
+	"github.com/dmitryax/opentelemetry-go/trace/embedded"
 )
 
 var (

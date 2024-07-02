@@ -13,12 +13,12 @@ import (
 	"os/signal"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/zipkin"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/exporters/zipkin"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	sdktrace "github.com/dmitryax/opentelemetry-go/sdk/trace"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.26.0"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 var logger = log.New(os.Stderr, "zipkin-example", log.Ldate|log.Ltime|log.Llongfile)

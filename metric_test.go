@@ -1,16 +1,16 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/dmitryax/opentelemetry-go"
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/embedded"
-	"go.opentelemetry.io/otel/metric/noop"
+	"github.com/dmitryax/opentelemetry-go/metric"
+	"github.com/dmitryax/opentelemetry-go/metric/embedded"
+	"github.com/dmitryax/opentelemetry-go/metric/noop"
 )
 
 type testMeterProvider struct{ embedded.MeterProvider }

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/propagation"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 func BenchmarkInject(b *testing.B) {

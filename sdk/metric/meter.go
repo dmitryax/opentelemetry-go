@@ -1,19 +1,19 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/dmitryax/opentelemetry-go/sdk/metric"
 
 import (
 	"context"
 	"errors"
 	"fmt"
 
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/embedded"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
+	"github.com/dmitryax/opentelemetry-go/internal/global"
+	"github.com/dmitryax/opentelemetry-go/metric"
+	"github.com/dmitryax/opentelemetry-go/metric/embedded"
+	"github.com/dmitryax/opentelemetry-go/sdk/instrumentation"
 
-	"go.opentelemetry.io/otel/sdk/metric/internal/aggregate"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric/internal/aggregate"
 )
 
 // ErrInstrumentName indicates the created instrument has an invalid name.

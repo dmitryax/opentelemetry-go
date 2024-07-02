@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stdoutmetric // import "go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
+package stdoutmetric // import "github.com/dmitryax/opentelemetry-go/exporters/stdout/stdoutmetric"
 
 import (
 	"encoding/json"
 	"io"
 	"os"
 
-	"go.opentelemetry.io/otel/sdk/metric"
+	"github.com/dmitryax/opentelemetry-go/sdk/metric"
 )
 
 // config contains options for the exporter.

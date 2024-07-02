@@ -4,10 +4,10 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package transform // import "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp/internal/transform"
+package transform // import "github.com/dmitryax/opentelemetry-go/exporters/otlp/otlpmetric/otlpmetrichttp/internal/transform"
 
 import (
-	"go.opentelemetry.io/otel/attribute"
+	"github.com/dmitryax/opentelemetry-go/attribute"
 	cpb "go.opentelemetry.io/proto/otlp/common/v1"
 )
 

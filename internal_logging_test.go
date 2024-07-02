@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-logr/stdr"
 
-	"go.opentelemetry.io/otel"
+	"github.com/dmitryax/opentelemetry-go"
 )
 
 func ExampleSetLogger() {

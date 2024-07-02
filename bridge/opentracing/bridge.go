@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opentracing // import "go.opentelemetry.io/otel/bridge/opentracing"
+package opentracing // import "github.com/dmitryax/opentelemetry-go/bridge/opentracing"
 
 import (
 	"context"
@@ -13,15 +13,15 @@ import (
 	otext "github.com/opentracing/opentracing-go/ext"
 	otlog "github.com/opentracing/opentracing-go/log"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/baggage"
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
-	"go.opentelemetry.io/otel/codes"
-	iBaggage "go.opentelemetry.io/otel/internal/baggage"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
-	"go.opentelemetry.io/otel/trace/noop"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/baggage"
+	"github.com/dmitryax/opentelemetry-go/bridge/opentracing/migration"
+	"github.com/dmitryax/opentelemetry-go/codes"
+	iBaggage "github.com/dmitryax/opentelemetry-go/internal/baggage"
+	"github.com/dmitryax/opentelemetry-go/propagation"
+	"github.com/dmitryax/opentelemetry-go/trace"
+	"github.com/dmitryax/opentelemetry-go/trace/noop"
 )
 
 var (

@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/sdk"
-	ottest "go.opentelemetry.io/otel/sdk/internal/internaltest"
-	"go.opentelemetry.io/otel/sdk/resource"
-	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/sdk"
+	ottest "github.com/dmitryax/opentelemetry-go/sdk/internal/internaltest"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.26.0"
 )
 
 var (

@@ -2,12 +2,12 @@ module github.com/dmitryax/opentelemetry-go/trace
 
 go 1.21
 
-replace go.opentelemetry.io/otel => ../
+replace github.com/dmitryax/opentelemetry-go => ../
 
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	go.opentelemetry.io/otel v1.28.0
+	github.com/dmitryax/opentelemetry-go v1.28.0
 )
 
 require (
@@ -16,4 +16,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.opentelemetry.io/otel/metric => ../metric
+replace github.com/dmitryax/opentelemetry-go/metric => ../metric

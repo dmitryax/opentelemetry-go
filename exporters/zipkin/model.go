@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkin // import "go.opentelemetry.io/otel/exporters/zipkin"
+package zipkin // import "github.com/dmitryax/opentelemetry-go/exporters/zipkin"
 
 import (
 	"encoding/binary"
@@ -13,15 +13,15 @@ import (
 
 	zkmodel "github.com/openzipkin/zipkin-go/model"
 
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/sdk/resource"
-	tracesdk "go.opentelemetry.io/otel/sdk/trace"
-	semconv120 "go.opentelemetry.io/otel/semconv/v1.20.0"
-	semconv121 "go.opentelemetry.io/otel/semconv/v1.21.0"
-	semconv125 "go.opentelemetry.io/otel/semconv/v1.25.0"
-	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/dmitryax/opentelemetry-go/attribute"
+	"github.com/dmitryax/opentelemetry-go/codes"
+	"github.com/dmitryax/opentelemetry-go/sdk/resource"
+	tracesdk "github.com/dmitryax/opentelemetry-go/sdk/trace"
+	semconv120 "github.com/dmitryax/opentelemetry-go/semconv/v1.20.0"
+	semconv121 "github.com/dmitryax/opentelemetry-go/semconv/v1.21.0"
+	semconv125 "github.com/dmitryax/opentelemetry-go/semconv/v1.25.0"
+	semconv "github.com/dmitryax/opentelemetry-go/semconv/v1.26.0"
+	"github.com/dmitryax/opentelemetry-go/trace"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/trace"
-	"go.opentelemetry.io/otel/trace/embedded"
-	"go.opentelemetry.io/otel/trace/noop"
+	"github.com/dmitryax/opentelemetry-go/trace"
+	"github.com/dmitryax/opentelemetry-go/trace/embedded"
+	"github.com/dmitryax/opentelemetry-go/trace/noop"
 )
 
 type testTracerProvider struct{ embedded.TracerProvider }

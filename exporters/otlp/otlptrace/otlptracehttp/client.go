@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otlptracehttp // import "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
+package otlptracehttp // import "github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp"
 
 import (
 	"bytes"
@@ -19,11 +19,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/internal"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/internal/otlpconfig"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/internal/retry"
+	"github.com/dmitryax/opentelemetry-go"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp/internal"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp/internal/otlpconfig"
+	"github.com/dmitryax/opentelemetry-go/exporters/otlp/otlptrace/otlptracehttp/internal/retry"
 	coltracepb "go.opentelemetry.io/proto/otlp/collector/trace/v1"
 	tracepb "go.opentelemetry.io/proto/otlp/trace/v1"
 )
